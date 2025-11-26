@@ -7,14 +7,16 @@ from tools import organize_folder, get_folder_size, check_ram_status
 
 init(autoreset=True)
 
-a = "sk-or-v1-7995770d42"
-b = "78c5cbb2d0ab4335adf3"
-c = "b69dfff451870ce8"
-d = "9f73cf8b7a9544ce02"
+a = 
+b =
+c =
+d =
+
+#sengaja dikosongkan
 
 OPENROUTER_API_KEY = a + b + c + d
-OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
-OPENROUTER_URL = f"{OPENROUTER_BASE_URL}/chat/completions"
+OPENROUTER_BASE_URL = ""
+OPENROUTER_URL = f""
 
 def ask_ai(user_text):
     payload = {
@@ -92,3 +94,4 @@ while True:
         print(Fore.CYAN + check_ram_status())
 
     print()
+
